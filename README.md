@@ -68,7 +68,15 @@ RGB 检测**只需要 3 个文件**（深度图用不到，可跳过约 5GB 的 
 | `raw/Images_RGB.zip` | 12.4 GB | RGB 图像 |
 | `raw/Annotations_RGB.zip` | 7.6 MB | Pascal VOC YAML 标注 |
 
-**下载方式 ① — openxlab CLI（推荐，国内快，需 AK/SK）：**
+**下载方式 ⓪ — 一键脚本（推荐）：**
+
+```bash
+venv/Scripts/python scripts/download_dataset.py --target datasets
+```
+
+脚本自动拉这 3 个文件（跳过 depth 包）、下完校验，并提示下一步。前提是已装好并登录 openxlab（见下）。
+
+**下载方式 ① — openxlab CLI 手动（需 AK/SK）：**
 
 ```bash
 pip install openxlab

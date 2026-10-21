@@ -12,7 +12,9 @@ venv/
 
 # ===== 数据集（体积大，不入库）=====
 dataset/
+datasets/
 dataset_1000/
+dataset_*/
 
 # ===== 训练产物 =====
 runs/
