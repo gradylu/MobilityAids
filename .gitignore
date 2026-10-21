@@ -1,0 +1,29 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+
+# ===== 数据集（体积大，不入库）=====
+dataset/
+dataset_1000/
+
+# ===== 训练产物 =====
+runs/
+*.log
+*.cache
+
+# ===== 预训练权重（可从 Ultralytics 重新下载）=====
+*.pt
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
